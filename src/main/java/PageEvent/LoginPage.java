@@ -17,7 +17,7 @@ public class LoginPage {
 	 }
 	 
 	 public void entercredentials() {
-		 ele.getWebElement("XPATH", LoginPageObject.email).sendKeys("rahulrai@enercent.co");
+		 ele.getWebElement("XPATH", LoginPageObject.email).sendKeys("jai.kumar@enercent.co");
 		 ele.getWebElement("XPATH", LoginPageObject.password).sendKeys("Enercent$3");
 		// jse.executeScript("window.scrollBy(0,250)");
 		 ele.getWebElement("XPATH", LoginPageObject.loginbutton).click();
